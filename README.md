@@ -27,6 +27,14 @@ this repo into your `~/.vim/bundle` directory and you are ready to go.
     cd ~/.vim/bundle
     git clone https://github.com/edwinb/idris2-vim.git
 
+Check this command is in your `.vimrc`:
+
+    execute pathogen#infect()
+
+To check that Idris 2 mode is loaded, open an `.idr` file, and invoke the command:
+
+    :call IdrisEval()
+
 ### Manual Installation
 
 Copy content into your `~/.vim` directory.
